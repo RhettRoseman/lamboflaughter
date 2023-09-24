@@ -156,3 +156,10 @@ table tbody tr:nth-child(2) td:nth-child(1){
     background-color: aqua;
 }
  */
+ table .showDisplay li:first-child + li a{
+    border: 2px solid black;
+}
+table tbody tr:nth-child(2) td:nth-child(1){
+    color: green;
+    /* add img tag */
+}
