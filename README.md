@@ -19,7 +19,7 @@
  
 
  ## Technologies 
- HTML 
+ * HTML 
  CSS 
  JavaScript 
  APis 
