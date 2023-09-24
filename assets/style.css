@@ -128,6 +128,14 @@ footer{
     background-color:rgb(229, 142, 239) ;
     text-align: center;
 }
+
+table .showDisplay li:first-child + li a{
+    border: 2px solid black;
+}
+table tbody tr:nth-child(2) td:nth-child(1){
+    color: green;
+    /* add img tag */
+}
 /* .form-select {
     margin: 5px 5px 15px 5px;
 } */
