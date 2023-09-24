@@ -19,13 +19,13 @@
  
 
  ## Technologies 
-HTML
+* HTML
    
-CSS
+* CSS
 
-JavaScript
+*J avaScript
 
-APis 
+* APis 
 
  
 ## Links 
