@@ -199,13 +199,51 @@ function getApi() {
     .then((json) => console.log(json));
   
   }
-  
+  // var star = document.getElementById("makupdiv");
+  // startBtn.addEventListener("click", function () {
+  //   window.location.href = "page2.html";
+  // });
     //**********@MEB
   //**********Table for makeup api fetch call */ */
   //********* */
   
+  function getWeatherApi2() {
+    // fetch request gets a list of all the repos for the node.js organization
+    var requestUrl = 'https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m&daily=precipitation_sum,rain_sum&temperature_unit=fahrenheit&precipitation_unit=inch&timezone=America%2FNew_York';
   
-  
+  fetch(requestUrl)
+    .then(function (response) { //first response
+      return response.json();
+    })
+    .then(function (data) { //2nd  data
+      console.log(data)
+      console.log(data)
+      console.log(data.daily.rain_sum)
+      // Loop over the data to generate a table, each table row will have a link to the repo url.
+      var oddsOfRain = data.daily.rain_sum;
+      for(var i =0; i<oddsOfRain.length; i++){
+        var rainStatus = document.querySelector('#rainStatus');
+         oddsOfRain = data.daily.rain_sum[i];
+        if(oddsOfRain[i] == 0){
+          //html ele location ==
+          rainStatus.innerText="Your location forecast is SUNSHINE! All make-up can be worn today!";
+          console.log("no rain")
+        }else console.log("rain");
+        rainStatus.innerText="Your location forecast is RAIN! Take beauty precaution Wear waterproof products today!";
+      }
+   });
+  }
+getWeatherApi2();
+
+
+
+
+
+
+
+
+
+
   
   
   
