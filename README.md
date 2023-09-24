@@ -18,7 +18,9 @@
  APis 
 ## Links 
 [GitHub][https://github.com/RhettRoseman/lamboflaughter]
-[Live URL][]
+[Live URL][https://rhettroseman.github.io/lamboflaughter/]
 ## ScreenShots 
+<img width="1792" alt="Screenshot 2023-09-24 at 5 03 40 PM 4" src="https://github.com/RhettRoseman/lamboflaughter/assets/140462841/a0ef5f41-6899-4af6-94f1-17d03113ff86">
+
 
 
