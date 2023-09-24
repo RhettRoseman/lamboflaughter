@@ -4,10 +4,6 @@
 
  THEN I take the dropdown quiz
  
- WHEN I click "Let's Get Started"
- 
- THEN I am shown a quiz
- 
  WHEN I click the dropdown buttons
  
  THEN I am presented with options 
