@@ -23,7 +23,7 @@
    
 * CSS
 
-*J avaScript
+* JavaScript
 
 * APis 
 
