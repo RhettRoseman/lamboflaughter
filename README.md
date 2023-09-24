@@ -17,8 +17,8 @@
  JavaScript 
  APis 
 ## Links 
-[GitHub]
-
+[GitHub][https://github.com/RhettRoseman/lamboflaughter]
+[Live URL][]
 ## ScreenShots 
 
 
